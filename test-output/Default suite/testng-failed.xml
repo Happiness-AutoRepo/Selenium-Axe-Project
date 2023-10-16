@@ -5,6 +5,8 @@
     <classes>
       <class name="runners.TestAccessibilityCompliance">
         <methods>
+          <include name="wrapUp"/>
+          <include name="setUp"/>
           <include name="testOne"/>
         </methods>
       </class> <!-- runners.TestAccessibilityCompliance -->
